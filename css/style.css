@@ -1,5 +1,9 @@
 body {
-  background-color: lightpink;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/122/028/original/409548.jpg?1712347413");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -25,10 +29,12 @@ select {
 .container {
   max-width: 550px;
   margin: 60px auto;
-  background: lightcyan;
+  background: rgba(207, 236, 243, 0.918);
   padding: 30px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px rgba(45, 45, 46, 0.279);
   border-radius: 10px;
+  border-left: 3px solid rgb(69, 125, 222);
+  border-right: 3px solid rgb(69, 125, 222);
 }
 
 .city {
